@@ -4,9 +4,3 @@
     letter-spacing: normal;
     color: #FFFFFF;
 }
-
-@media screen and (max-width: 425px) {
-    .place__url-link {
-        display: none;
-    }
-}

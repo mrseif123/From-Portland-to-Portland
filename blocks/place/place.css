@@ -15,7 +15,7 @@
     margin-top: 0;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 521px) {
     .place {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -25,13 +25,14 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
     .place {
         margin-top: 60px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
         grid-template-areas: 
         "title"
+        "url"
         "image"
         "text";
     }
