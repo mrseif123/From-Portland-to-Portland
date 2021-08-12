@@ -1,0 +1,19 @@
+.place__url {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: url;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+    .place__url {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .place__url {
+        display: none;
+    }
+}

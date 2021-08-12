@@ -1,0 +1,12 @@
+.place__url-link {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: normal;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .place__url-link {
+        display: none;
+    }
+}
