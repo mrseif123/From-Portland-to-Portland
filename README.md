@@ -10,4 +10,4 @@ Mainly focuses on the following:
 4. BEM naming convention for files, elements, blocks and modifiers.
 
 
-[A direct link (GitHub Pages)](https://mrseif123.github.io/Web-Project-3/)
+[A direct link (GitHub Pages)](https://mrseif123.github.io/web_project_3/)
