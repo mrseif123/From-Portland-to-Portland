@@ -13,7 +13,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url("https://github.com/mrseif123/web_project_3/blob/a26e0e53dd37a7253eab43a2c6e358e0ff3f59c3/images/cover-route-66.jpg");
+    background-image: ![](images/cover-route-66.jpg);
 }
 
 .cover__link::after {
