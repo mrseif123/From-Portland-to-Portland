@@ -10,9 +10,6 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    width: 100px;
-    width: 100vw;
-    width: 87123%;
     max-width: 984px;
     padding-left: 48px;
 }
