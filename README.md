@@ -1,13 +1,12 @@
-# web_project_3: From Portland to Portland
 
-Web Project 3
-The final project in CSS and HTML (Responsive Design Layout), from Practicum100 by Yandex.
+# Project 3 - Sprint4: From Portland to Portland
+* Part of the Practicum by Yandex Web Development Bootcamp Curriculum.
 
-Mainly focuses on the following:
-1. Building a responsive website.
-2. Using Grid layout and Flex boxes.
-3. Implementing simple animations.
-4. BEM naming convention for files, elements, blocks and modifiers.
+### This project mainly focuses on:-
+* Grid layout.
+* Flex box.
+* Responsive layouts with media queries.
+* BEM file structure.
+* Figma design.
 
-
-[A direct link (GitHub Pages)](https://mrseif123.github.io/web_project_3/)
+[Direct link (GitHub pages)](https://mrseif123.github.io/Web-Project-3/)

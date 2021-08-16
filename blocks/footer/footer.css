@@ -1,37 +1,31 @@
-@import url(./__copyright/footer__copyright.css);
-@import url(./__item/footer__item.css);
-@import url(./__link/footer__link.css);
-@import url(./__links/footer__links.css);
+@import url('__links/footer__links.css');
+@import url('__link/footer__link.css');
+@import url('__copyright/footer__copyright.css');
 
 .footer {
-    margin-top: 92px;
-    margin-bottom: 24px;
-    display: flex;
-    justify-content: space-between;
-    width: 984px;
-    align-self: center;
-
+  width: calc(100% - 48px*2);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .footer {
-        width: calc(100vw - 96px);
-    }
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(100% - 24px*2);
+  }
 }
 
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .footer {
-        margin-top: 88px;
-        width: 100%;
-    }
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 16px*2);
+  }
 }
 
-@media screen and (max-width: 425px) {
-    .footer {
-        margin-top: 64px;
-        margin-left: 16px;
-        flex-direction: column;
-        width: 100%;
-    }
+@media screen and (max-width: 640px) {
+  .footer {
+    display: block;
+    width: 100%;
+    min-width: 168px;
+  }
 }
