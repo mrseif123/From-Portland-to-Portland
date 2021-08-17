@@ -1,9 +1,0 @@
-.place__description {
-  grid-area: description;
-}
-
-@media screen and (max-width: 768px) {
-  .place__description {
-    padding: 0 16px;
-  }
-}
