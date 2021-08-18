@@ -3,7 +3,7 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-  width: calc(100% - 48px*2);
+  width: calc(1184px - 48px*2);
   margin: auto;
   display: flex;
   justify-content: space-between;
