@@ -5,7 +5,6 @@
 @import url(./__url-link/place__url-link.css);
 @import url(./__description/place__description.css);
 @import url(./__paragraph/place__paragraph.css);
-@import url(./__image-item/place__image-item.css);
 
 .place {
   display: grid;
@@ -31,15 +30,16 @@
 
 @media screen and (max-width: 640px) {
   .place {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    margin-bottom: 48px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
       "title"
       "url"
       "image"
       "description";
     grid-gap: 32px;
+    margin: 0;
     margin-bottom: 48px;
   }
 }
