@@ -4,3 +4,11 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+
+@media screen and (max-width: 640px) {
+ .place__url{
+      margin-left: 16px;
+      margin-right: 16px;
+ }
+}
