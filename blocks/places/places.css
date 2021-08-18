@@ -1,7 +1,6 @@
 .places {
   width: calc(1280px - 148px*2);
   margin: auto;
-  padding: 0;
   margin-bottom: 92px;
   box-sizing: border-box;
 }
