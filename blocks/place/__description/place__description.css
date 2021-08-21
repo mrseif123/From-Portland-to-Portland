@@ -1,3 +1,10 @@
 .place__description {
   grid-area: description;
 }
+
+@media screen  and (max-width: 670px) {
+  .place__description {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

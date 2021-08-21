@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: minmax(auto, 1fr) auto;
   grid-template-rows: auto auto;
-  grid-gap: 48px 40px;
+  grid-gap: 48px 32px;
   grid-template-areas:
     "title url"
     "image description";
@@ -22,13 +22,13 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 768px) {
   .place {
-    grid-gap: 48px 32px;
+    grid-gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 670px) {
   .place {
     width: 100%;
     grid-template-columns: 1fr;
@@ -38,7 +38,7 @@
       "url"
       "image"
       "description";
-    grid-gap: 32px;
+    grid-gap: 30px;
     margin: 0;
     margin-bottom: 48px;
   }
