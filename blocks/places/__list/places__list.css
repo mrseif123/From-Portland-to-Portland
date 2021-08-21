@@ -1,0 +1,19 @@
+.places__list {
+  padding: 0;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  .places__list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places__list {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

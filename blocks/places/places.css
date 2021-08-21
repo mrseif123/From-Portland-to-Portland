@@ -1,5 +1,7 @@
+@import url(./__list/places__list.css);
 .places {
   width: calc(1280px - 148px*2);
+  padding: 0;
   margin: auto;
   margin-bottom: 92px;
   box-sizing: border-box;
@@ -13,14 +15,13 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    width: 100%;
+    width: (100% - 48px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .places {
     margin: 0;
-    width: 100%;
     margin-bottom: 64px;
   }
 }

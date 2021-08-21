@@ -4,7 +4,7 @@
 
 .footer {
   width: calc(100vw - 48px*2);
-  max-width: 1280px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   margin: 92px auto 24px auto;
@@ -12,13 +12,17 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: calc(100% - 24px*2);
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: calc(100% - 16px*2);
+    width: calc(100% -  48px);
+    max-width: 720px;
   }
 }
 
@@ -27,5 +31,6 @@
     display: block;
     width: 100%;
     min-width: 168px;
+    margin-top: 64px;
   }
 }
