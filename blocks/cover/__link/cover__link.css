@@ -13,7 +13,7 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url("/images/cover-route-66.jpg");
+    background-image: url("/images/route66.jpg");
 }
 
 .cover__link::after {
