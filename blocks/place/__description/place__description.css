@@ -2,7 +2,7 @@
   grid-area: description;
 }
 
-@media screen  and (max-width: 670px) {
+@media screen and (max-width: 520px) {
   .place__description {
     margin-left: 16px;
     margin-right: 16px;

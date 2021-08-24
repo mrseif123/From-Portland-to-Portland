@@ -3,6 +3,7 @@
   line-height: 1.63;
   margin: 0;
   padding: 0;
+  min-width: 150px;
 }
 
 .place__paragraph:not(:last-child) {

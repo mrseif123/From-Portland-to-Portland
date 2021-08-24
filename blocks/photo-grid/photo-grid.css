@@ -5,16 +5,26 @@
   max-width: 1184px;
   margin: 0 auto;
   padding: 0 auto 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    width: calc(100% - 96px);
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .photo-grid {
     padding: 0 24px 70px;
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
     padding: 0 16px 64px;
+    width: calc(100% - 32px);
   }
 }
