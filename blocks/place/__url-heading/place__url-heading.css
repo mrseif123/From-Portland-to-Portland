@@ -8,8 +8,8 @@
   grid-area: url-heading;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place__url-heading {
-    line-height: 1;
+    line-height: 1.2;
   }
 }
