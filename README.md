@@ -1,4 +1,4 @@
-# web_project_3: From Portland to Portland
+# Web Project 3: From Portland to Portland
 
 Web Project 3
 The final project in CSS and HTML (Responsive Design Layout), from Practicum100 by Yandex.
